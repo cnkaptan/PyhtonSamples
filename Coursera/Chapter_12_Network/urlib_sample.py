@@ -24,12 +24,12 @@ print "\n"
 #     print line.strip()
 
 
-url = raw_input("Enter - ")
-
-html = urllib.urlopen(url).read()
-soup = BeautifulSoup(html)
-
-tags = soup('a')
-
-for tag in tags:
-    print tag.get("href", None)
+# url = raw_input("Enter - ")
+#
+# html = urllib.urlopen(url).read()
+# soup = BeautifulSoup(html)
+#
+# tags = soup('a')
+#
+# for tag in tags:
+#     print tag.get("href", None)
