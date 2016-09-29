@@ -142,7 +142,7 @@ def hangman(secretWord):
         print('Congratulations, you won!')
     else:
         print('Sorry, you ran out of guesses. The word was else. ')
-# When you've completed your hangman function, uncomment these two lines
+# When you've completed your ProblemSet3_hangman function, uncomment these two lines
 # and run this file to test! (hint: you might want to pick your own
 # secretWord while you're testing)
 
