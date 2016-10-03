@@ -100,9 +100,9 @@ def remove_dubs_new(listA, listB):
         print(e)
         if e in listB:
             listA.remove(e)
-# remove_dubs(L10,L11)
-# remove_dubs_new(L10,L11)
-# print(L10)
+remove_dubs(L10,L11)
+remove_dubs_new(L10,L11)
+print(L10)
 
 print('------------------------------------------------------------')
 """
