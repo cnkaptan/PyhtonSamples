@@ -11,3 +11,5 @@ while iteration < 5:
 print(bin(19))
 print(bin(19//2))
 
+
+
